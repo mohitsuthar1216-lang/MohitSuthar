@@ -55,7 +55,7 @@ Code              Python · REST APIs
 
 - 📍 Frankfurt am Main, Germany
 - 🎓 MSc Advanced Industrial Engineering · TH Rosenheim · Sep 2026
-- 🔍 Open to full-time from September 2026
+- 🔍 Open to full-time from July 2026
   → AI integration · Digital transformation · Power Platform
 - 🇩🇪 German B1 → B2 in progress
 - 💼 Previously: Continental · Aumovio · Adelholzener
