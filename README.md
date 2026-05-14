@@ -13,7 +13,7 @@ and process automation. Not theoretical. Operational.
 **AI Workflow Automation**
 Converting manual enterprise processes into AI-supported
 digital workflows. RAG, Azure OpenAI, API orchestration.
-At Aumovio, reduced product management workload by 30%.
+At Aumovio, reduced product management workload by 30% (approx.).
 
 **Power BI Reporting Systems**
 End-to-end BI from raw operational data to dashboards used
@@ -24,7 +24,7 @@ UiPath and Power Automate implementations. Delivered
 125+ hours of manual effort eliminated at Continental.
 
 **ERP AI Integration**
-Copilot Studio + Dynamics 365 Business Central — natural
+Copilot Studio + Dynamics 365 Business Central - natural
 language interfaces for enterprise data retrieval.
 
 ---
