@@ -3,7 +3,7 @@
 **AI Integration & Automation Engineer** · Frankfurt, Germany
 
 I build practical AI solutions and automation workflows for
-enterprise environments — Power Platform, Azure AI, RAG systems,
+enterprise environments - Power Platform, Azure AI, RAG systems,
 and process automation. Not theoretical. Operational.
 
 ---
