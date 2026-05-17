@@ -1,0 +1,15 @@
+DOCUMENT TYPE: INVOICE
+Invoice No: INV-2026-002
+Supplier: MainTech Services AG
+Invoice Date: 2026-05-06
+Due Date: 2026-06-05
+Purchase Order: PO-77859
+Department: Maintenance
+Cost Center: MT-220
+Net Amount: EUR 3,250.00
+Tax Amount: EUR 617.50
+Total Amount: EUR 3,867.50
+
+Description:
+Preventive maintenance service package for production line sensors.
+
