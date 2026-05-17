@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document Intelligence Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 32px;
+      color: #1f2937;
+      background: #f7f7f4;
+    }
+    h1 { margin-bottom: 4px; }
+    .subtitle { color: #5f6b7a; margin-bottom: 24px; }
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .kpi {
+      background: white;
+      border: 1px solid #deded8;
+      border-radius: 8px;
+      padding: 16px;
+    }
+    .kpi strong { display: block; font-size: 26px; margin-top: 6px; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      border: 1px solid #deded8;
+    }
+    th, td {
+      padding: 10px;
+      border-bottom: 1px solid #ededeb;
+      text-align: left;
+      font-size: 14px;
+    }
+    th { background: #ecebe5; }
+    .approved { color: #0f766e; font-weight: 700; }
+    .needs_review { color: #b45309; font-weight: 700; }
+  </style>
+</head>
+<body>
+  <h1>Document Intelligence Dashboard</h1>
+  <div class="subtitle">Automated extraction, validation, and exception monitoring</div>
+
+  <section class="kpis">
+    <div class="kpi">Processed documents<strong>3</strong></div>
+    <div class="kpi">Approved<strong>2</strong></div>
+    <div class="kpi">Needs review<strong>1</strong></div>
+    <div class="kpi">Approved value<strong>EUR 6,057.10</strong></div>
+  </section>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Document</th>
+        <th>Supplier</th>
+        <th>PO</th>
+        <th>Total</th>
+        <th>Status</th>
+        <th>Issues</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+  <td>INV-2026-001</td>
+  <td>Rhein Components GmbH</td>
+  <td>PO-77841</td>
+  <td>EUR 2,189.60</td>
+  <td class="approved">approved</td>
+  <td>-</td>
+</tr>
+<tr>
+  <td>INV-2026-002</td>
+  <td>MainTech Services AG</td>
+  <td>PO-77859</td>
+  <td>EUR 3,867.50</td>
+  <td class="approved">approved</td>
+  <td>-</td>
+</tr>
+<tr>
+  <td>INV-2026-003</td>
+  <td>Alpine Logistics GmbH</td>
+  <td>-</td>
+  <td>EUR 2,900.00</td>
+  <td class="needs_review">needs_review</td>
+  <td>Missing required field: purchase_order; Due date is before invoice date; Total amount should be EUR 2,856.00</td>
+</tr>
+    </tbody>
+  </table>
+</body>
+</html>

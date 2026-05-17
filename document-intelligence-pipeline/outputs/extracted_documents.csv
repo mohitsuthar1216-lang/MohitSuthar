@@ -1,0 +1,4 @@
+source_file,document_id,supplier,invoice_date,due_date,purchase_order,department,cost_center,currency,net_amount,tax_amount,total_amount,extraction_confidence,status,issue_count
+invoice_001.txt,INV-2026-001,Rhein Components GmbH,2026-05-03,2026-06-02,PO-77841,Quality Engineering,QE-104,EUR,1840.0,349.6,2189.6,1.0,approved,0
+invoice_002.txt,INV-2026-002,MainTech Services AG,2026-05-06,2026-06-05,PO-77859,Maintenance,MT-220,EUR,3250.0,617.5,3867.5,1.0,approved,0
+invoice_003_needs_review.txt,INV-2026-003,Alpine Logistics GmbH,2026-05-09,2026-05-01,,Supply Chain,SC-330,EUR,2400.0,456.0,2900.0,0.9,needs_review,3

@@ -1,0 +1,4 @@
+source_file,document_id,supplier,field,severity,message
+invoice_003_needs_review.txt,INV-2026-003,Alpine Logistics GmbH,purchase_order,error,Missing required field: purchase_order
+invoice_003_needs_review.txt,INV-2026-003,Alpine Logistics GmbH,due_date,error,Due date is before invoice date
+invoice_003_needs_review.txt,INV-2026-003,Alpine Logistics GmbH,total_amount,error,"Total amount should be EUR 2,856.00"

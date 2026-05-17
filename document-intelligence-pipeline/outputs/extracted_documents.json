@@ -1,0 +1,72 @@
+[
+  {
+    "source_file": "invoice_001.txt",
+    "document_id": "INV-2026-001",
+    "supplier": "Rhein Components GmbH",
+    "invoice_date": "2026-05-03",
+    "due_date": "2026-06-02",
+    "purchase_order": "PO-77841",
+    "department": "Quality Engineering",
+    "cost_center": "QE-104",
+    "currency": "EUR",
+    "net_amount": 1840.0,
+    "tax_amount": 349.6,
+    "total_amount": 2189.6,
+    "extraction_confidence": 1.0,
+    "status": "approved",
+    "issue_count": 0,
+    "issues": []
+  },
+  {
+    "source_file": "invoice_002.txt",
+    "document_id": "INV-2026-002",
+    "supplier": "MainTech Services AG",
+    "invoice_date": "2026-05-06",
+    "due_date": "2026-06-05",
+    "purchase_order": "PO-77859",
+    "department": "Maintenance",
+    "cost_center": "MT-220",
+    "currency": "EUR",
+    "net_amount": 3250.0,
+    "tax_amount": 617.5,
+    "total_amount": 3867.5,
+    "extraction_confidence": 1.0,
+    "status": "approved",
+    "issue_count": 0,
+    "issues": []
+  },
+  {
+    "source_file": "invoice_003_needs_review.txt",
+    "document_id": "INV-2026-003",
+    "supplier": "Alpine Logistics GmbH",
+    "invoice_date": "2026-05-09",
+    "due_date": "2026-05-01",
+    "purchase_order": "",
+    "department": "Supply Chain",
+    "cost_center": "SC-330",
+    "currency": "EUR",
+    "net_amount": 2400.0,
+    "tax_amount": 456.0,
+    "total_amount": 2900.0,
+    "extraction_confidence": 0.9,
+    "status": "needs_review",
+    "issue_count": 3,
+    "issues": [
+      {
+        "field": "purchase_order",
+        "message": "Missing required field: purchase_order",
+        "severity": "error"
+      },
+      {
+        "field": "due_date",
+        "message": "Due date is before invoice date",
+        "severity": "error"
+      },
+      {
+        "field": "total_amount",
+        "message": "Total amount should be EUR 2,856.00",
+        "severity": "error"
+      }
+    ]
+  }
+]
